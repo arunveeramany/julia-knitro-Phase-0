@@ -50,7 +50,6 @@ type branchData
   thetatr :: Float64
 end
 
-
 type fixedData
   baseMVA :: Float64
 
