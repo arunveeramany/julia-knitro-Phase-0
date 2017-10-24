@@ -1,4 +1,4 @@
-# data processing for ARPA-E Competition
+# data processing for ARPA-E Competition Phase 0
 
 # preprocessing: read in the data and divide it into segments
 function preProc(rawFile)
