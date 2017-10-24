@@ -2,7 +2,7 @@ include("def.jl");
 include("dProc.jl");
 include("buildMod.jl");
 
-function MyJulia1(rawFile, genFile, contFile)
+function MyJulia1(rawFile, genFile, contFile) 
 
 # written by Haoxiang Yang, Northwestern University, 404-421-0638, haoxiangyang2019@u.northwestern.edu
 # modified by Stephen Elbert and Jesse Holzer, PNNL; Miles Lubin, Google
