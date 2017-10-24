@@ -1,6 +1,4 @@
-# model of the ARPA-E Competition
-#
-# JH: seems to be a bug somewhere.
+# model for ARPA-E Competition Phase 0
 #
 # getting constraint violations for real and reactive power balance at all buses
 # in the base case and all contingency cases.
