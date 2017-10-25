@@ -69,6 +69,7 @@ function buildMod(fData,uData, contDList)
    			#pivot=1e-12,
         ms_enable=1,
         ms_maxsolves=5,
+        par_numthreads=24,
    			maxtime_real=3600)); 
   
   # create the variables for the base case
