@@ -70,7 +70,7 @@ function buildMod(fData,uData, contDList)
         ms_enable=1,
         ms_maxsolves=5,
         ms_maxbndrange=100,
-        ms_terminate=1,
+        ms_terminate=2,
         #par_numthreads=24,
         #par_concurrent_evals=0,
    			maxtime_real=3600)); 
