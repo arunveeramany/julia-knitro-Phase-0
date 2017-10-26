@@ -59,7 +59,7 @@ function buildMod(fData,uData, contDList)
   # set up the model
   #mp = Model(solver = IpoptSolver(print_level=0));
   mp = Model(solver = KnitroSolver(KTR_PARAM_OUTLEV=2,  # default is 2
-   			feastol=2.5e-9, 
+   			feastol=2.e-9, 
    			#feastol_abs=1e-2,
    			opttol=1e-4, 
    			cg_maxit=10,   # formerly maxcgit
