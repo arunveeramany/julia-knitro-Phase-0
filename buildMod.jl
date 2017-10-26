@@ -59,7 +59,7 @@ function buildMod(fData,uData, contDList)
   # set up the model
   #mp = Model(solver = IpoptSolver(print_level=0));
   mp = Model(solver = KnitroSolver(KTR_PARAM_OUTLEV=2,  # default is 2
-   			feastol=1.0e-9, 
+   			feastol=2.5e-9, 
    			#feastol_abs=1e-2,
    			opttol=1e-4, 
    			cg_maxit=10,   # formerly maxcgit
@@ -70,7 +70,7 @@ function buildMod(fData,uData, contDList)
         ms_enable=1,
         ms_maxsolves=5,
         ms_maxbndrange=100,
-        ms_terminate=3,
+        ms_terminate=1,
         #par_numthreads=24,
         #par_concurrent_evals=0,
    			maxtime_real=3600)); 
