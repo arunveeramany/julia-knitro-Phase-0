@@ -69,8 +69,8 @@ function buildMod(fData,uData, contDList)
    			#pivot=1e-12,
         ms_enable=1,
         ms_maxsolves=5,
-        ms_maxbndrange=100,
-        ms_terminate=2,
+        ms_maxbndrange=10,
+        ms_terminate=1,
         #par_numthreads=24,
         #par_concurrent_evals=0,
    			maxtime_real=3600)); 
