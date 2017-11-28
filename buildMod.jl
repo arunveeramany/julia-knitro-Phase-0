@@ -64,7 +64,10 @@ function buildMod(fData,uData, contDList)
    			opttol=1e-4, 
    			cg_maxit=10,   # formerly maxcgit
    			maxit=400,
-   			ftol=1e-4, 
+   			ftol=1e-4,
+        bar_feasible=1,
+        bar_initmu=0.12,
+        honorbnds=1,
    			#ftol_iters=3, 
    			#pivot=1e-12,
         #ms_enable=1,
