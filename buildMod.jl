@@ -75,14 +75,18 @@ function buildMod(fData,uData, contDList)
   # set up the model
   #mp = Model(solver = IpoptSolver(print_level=0));
   mp = Model(solver = KnitroSolver(KTR_PARAM_OUTLEV=2,  # default is 2
-  			bar_feasible=1,
-  			bar_initmu=0.12,
-   			feastol=2.25e-9, 
+  			#bar_feasible=1,
+  			#bar_initmu=0.12,
+   			feastol=2.25e-9,
+        datacheck=0,
+        ftol_iters=3,
+        hessian_no_f=1
    			#feastol_abs=1e-2,
+        newpoint=3,
    			opttol=1e-4, 
    			cg_maxit=10,   # formerly maxcgit
    			maxit=400,
-   			#ftol=1e-4, 
+   			ftol=1e-4, 
    			#ftol_iters=3, 
    			#pivot=1e-12, 
    			maxtime_real=3600)); 
