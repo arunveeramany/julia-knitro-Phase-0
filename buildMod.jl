@@ -79,8 +79,8 @@ function buildMod(fData,uData, contDList)
   			#bar_initmu=0.12,
    			feastol=2.25e-9,
         datacheck=0,
-        ftol_iters=3,
-        #hessian_no_f=1,
+        #ftol_iters=3,
+        hessian_no_f=1,  # impacts step size, worse without
    			#feastol_abs=1e-2,
         #newpoint=3,
    			opttol=1e-4, 
