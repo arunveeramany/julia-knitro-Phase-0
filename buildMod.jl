@@ -75,10 +75,10 @@ function buildMod(fData,uData, contDList)
   # set up the model
   #mp = Model(solver = IpoptSolver(print_level=0));
   mp = Model(solver = KnitroSolver(KTR_PARAM_OUTLEV=2,  # default is 2
-  			#bar_feasible=1,
-  			#bar_initmu=0.12,
+  			bar_feasible=1,
+  			bar_initmu=0.12,
    			feastol=2.25e-9,
-        #datacheck=0,
+        #datacheck=0,   # no impact
         #ftol_iters=3,  # no impact
         hessian_no_f=1,  # impacts step size, worse without
    			#feastol_abs=1e-2,
