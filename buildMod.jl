@@ -80,7 +80,7 @@ function buildMod(fData,uData, contDList)
    			feastol=2.25e-9,
         datacheck=0,
         ftol_iters=3,
-        hessian_no_f=1,
+        #hessian_no_f=1,
    			#feastol_abs=1e-2,
         #newpoint=3,
    			opttol=1e-4, 
