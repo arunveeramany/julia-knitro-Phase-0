@@ -82,7 +82,7 @@ function buildMod(fData,uData, contDList)
         ftol_iters=3,
         hessian_no_f=1,
    			#feastol_abs=1e-2,
-        newpoint=3,
+        #newpoint=3,
    			opttol=1e-4, 
    			cg_maxit=10,   # formerly maxcgit
    			maxit=400,
